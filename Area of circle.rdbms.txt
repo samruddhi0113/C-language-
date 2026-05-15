@@ -1,0 +1,11 @@
+DECLARE
+
+r float;
+ans float;
+
+BEGIN
+  r:=&r;
+  ans:=3.14*r*r;
+  DBMS_OUTPUT.PUT_LINE('Area of circle '||ans);
+END;
+/
